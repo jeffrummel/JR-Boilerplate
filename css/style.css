@@ -1,0 +1,135 @@
+/* 
+Author:Jeff Rummel http://jeffrummel.com Version:1.0
+License:GNU General Public License v2.0
+License URI:http://www.gnu.org/licenses/gpl-2.0.html
+-------------------------------------------------------------------------------	*/
+@import "reset.css";
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+
+/* SEMANTICS Set the stage. */
+body { background: url('img/1200-16.png') top center repeat-y fixed;
+	font:500 1em/1.25em arial, helvetica, sans-serif; color:#000; }
+
+/* LINKS	*/
+a, a:link, a:visited { color:blue; text-decoration:none;}
+a:hover { color:purple; text-decoration:underline;}
+a.active { color:red;}
+a:link { -webkit-tap-highlight-color: purple; }
+a:hover, a:active { outline: 0; }
+
+/* TEXT HIGHLIGHTING	*/
+::-moz-selection { background: #000; color: #fff; text-shadow: none !important;}
+::selection { background: #000; color: #fff; text-shadow: none !important;}
+
+/* TYPOGRAPHY	*/
+abbr[title] { border-bottom: 1px dotted; }
+
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+h1,h2,h3,h4,h5,h6 {
+	}
+	h1 {}
+	h2 {}
+	h3 {}
+	h4 {}
+	h5 {}
+	h6 {
+}
+
+del {color:#666;}
+
+/* LISTS	*/
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+/* Responsive IMG & EMBED	*/
+img,object,embed { max-width: 100%;height: auto; }
+
+/* RESPONSIVE VIDEO http://webdesignerwall.com/tutorials/css-elastic-videos */
+.video-wrapper { position: relative;padding-bottom: 56.25%;padding-top: 25px; height: 0; }
+object, embed, iframe { position: absolute;top: 0;left: 0;width: 100%;height: 100%; }
+
+/* show overflow in ie9	*/
+svg:not(:root) { overflow: hidden; }
+
+/* FORMS	*/
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+
+/* Make buttons uniform no matter what the plugins say */
+button, 
+input[type="button"],
+input[type="submit"] {}
+
+label { cursor: pointer; }
+
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+
+
+/* B/C We're all familiar with WP */
+.aligncenter { display: block; margin: 0 auto 1em; }
+
+.alignleft { float: left;margin:0 1em 1em 0; }
+
+.alignright { float: right;margin:0 0 1em 1em;}
+
+@media only screen and (min-width: 600px) {
+	/* SEMANTICS */
+	/* HEADER */
+	/* NAVIGATION */
+	/* CONTENT */
+	/* FOOTER */
+}
+@media only screen and (min-width: 768px) {
+	/* SEMANTICS */
+	/* HEADER */
+	/* NAVIGATION */
+	/* CONTENT */
+	/* FOOTER */
+}
+@media only screen and (min-width: 992px) {
+	/* SEMANTICS */
+	/* HEADER */
+	/* NAVIGATION */
+	/* CONTENT */
+	/* FOOTER */
+}
+@media only screen and (min-width: 1382px) {
+/* SEMANTICS */
+/* HEADER */
+/* NAVIGATION */
+/* CONTENT */
+/* FOOTER */
+}
+
