@@ -104,6 +104,13 @@ legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
 
 .alignright { float: right;margin:0 0 1em 1em;}
 
+/* SEMANTICS */
+/* HEADER */
+/* NAVIGATION */
+/* CONTENT */
+/* FOOTER */
+
+
 @media only screen and (min-width: 600px) {
 	/* SEMANTICS */
 	/* HEADER */
